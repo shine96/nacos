@@ -32,6 +32,6 @@ class BeatInstanceNamingTest extends TestCase
         $content = $response->getBody()->getContents();
         echo "content: " . $content;
         $this->assertNotEmpty($content);
-        $this->assertTrue($content == '{"clientBeatInterval":5000}');
+        $this->assertTrue($content ,json_encode('{"clientBeatInterval":5000}'));
     }
 }

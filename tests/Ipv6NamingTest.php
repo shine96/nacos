@@ -105,7 +105,7 @@ class NamingTest extends TestCase
     /**
      * This method is called before each test.
      */
-    protected function setUp()/* The :void return type declaration that should be here would cause a BC issue */
+    protected function setUp() : void/* The :void return type declaration that should be here would cause a BC issue */
     {
         NacosConfig::setHost("http://127.0.0.1:8848/");
         NacosConfig::setIsDebug(true);

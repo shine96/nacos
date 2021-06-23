@@ -48,7 +48,7 @@ class NacosTest extends TestCase
     /**
      * This method is called before each test.
      */
-    protected function setUp()/* The :void return type declaration that should be here would cause a BC issue */
+    protected function setUp() : void/* The :void return type declaration that should be here would cause a BC issue */
     {
         NacosConfig::setIsDebug(true);
         // 长轮询10秒一次
