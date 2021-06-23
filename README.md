@@ -125,7 +125,4 @@ Thanks goes to these wonderful people:
 
 Contributions of any kind are welcome!
 
-## 感谢nacos团队赠送的纪念杯
 
-![](docs/img/nacos-mug-1.jpg)
-![](docs/img/nacos-mug-2.jpg)
