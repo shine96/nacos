@@ -1,6 +1,6 @@
 <?php
 
-namespace alibaba\nacos\request\naming;
+namespace mimic\nacos\request\naming;
 
 class BeatInstanceNaming extends NamingRequest
 {

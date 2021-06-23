@@ -5,20 +5,20 @@ namespace mimic\nacos;
 
 
 use Exception;
-use alibaba\nacos\util\LogUtil;
-use alibaba\nacos\listener\config\Config;
-use alibaba\nacos\request\config\GetConfigRequest;
-use alibaba\nacos\failover\LocalConfigInfoProcessor;
-use alibaba\nacos\request\config\DeleteConfigRequest;
-use alibaba\nacos\request\config\PublishConfigRequest;
-use alibaba\nacos\request\config\ListenerConfigRequest;
-use alibaba\nacos\listener\config\GetConfigRequestErrorListener;
-use alibaba\nacos\listener\config\ListenerConfigRequestErrorListener;
+use mimic\nacos\util\LogUtil;
+use mimic\nacos\listener\config\Config;
+use mimic\nacos\request\config\GetConfigRequest;
+use mimic\nacos\failover\LocalConfigInfoProcessor;
+use mimic\nacos\request\config\DeleteConfigRequest;
+use mimic\nacos\request\config\PublishConfigRequest;
+use mimic\nacos\request\config\ListenerConfigRequest;
+use mimic\nacos\listener\config\GetConfigRequestErrorListener;
+use mimic\nacos\listener\config\ListenerConfigRequestErrorListener;
 
 /**
  * Class NacosClient
  * @author suxiaolin
- * @package alibaba\nacos
+ * @package mimic\nacos
  */
 class NacosClient implements NacosClientInterface
 {

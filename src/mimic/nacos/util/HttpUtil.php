@@ -1,16 +1,16 @@
 <?php
 
 
-namespace alibaba\nacos\util;
+namespace mimic\nacos\util;
 
 
 use GuzzleHttp\Client;
-use alibaba\nacos\NacosConfig;
+use mimic\nacos\NacosConfig;
 
 /**
  * Class HttpUtil
  * @author suxiaolin
- * @package alibaba\nacos\util
+ * @package mimic\nacos\util
  */
 class HttpUtil
 {

@@ -4,10 +4,10 @@ namespace tests\request\naming;
 
 use tests\TestCase;
 use ReflectionException;
-use alibaba\nacos\request\naming\BeatInstanceNaming;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\request\naming\BeatInstanceNaming;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 class BeatInstanceNamingTest extends TestCase
 {
@@ -32,6 +32,6 @@ class BeatInstanceNamingTest extends TestCase
         $content = $response->getBody()->getContents();
         echo "content: " . $content;
         $this->assertNotEmpty($content);
-        $this->assertTrue($content == '{"clientBeatInterval":5000}');
+        $this->assertTrue($content ,json_encode('{"clientBeatInterval":5000}'));
     }
 }

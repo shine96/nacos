@@ -1,13 +1,13 @@
 <?php
 
-namespace alibaba\nacos\exception;
+namespace mimic\nacos\exception;
 
 use Exception;
 
 /**
  * Class ResponseCodeErrorException
  * @author suxiaolin
- * @package alibaba\nacos\exception
+ * @package mimic\nacos\exception
  */
 class ResponseCodeErrorException extends Exception
 {

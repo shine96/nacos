@@ -1,11 +1,11 @@
 <?php
 
 
-namespace alibaba\nacos\util;
+namespace mimic\nacos\util;
 
 /**
  * Class DiscoveryUtil
- * @package alibaba\nacos\util
+ * @package mimic\nacos\util
  */
 class DiscoveryUtil
 {

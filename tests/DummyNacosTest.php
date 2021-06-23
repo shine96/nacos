@@ -40,7 +40,7 @@ class DummyNacosTest extends TestCase
     /**
      * This method is called before each test.
      */
-    protected function setUp()/* The :void return type declaration that should be here would cause a BC issue */
+    protected function setUp() : void/* The :void return type declaration that should be here would cause a BC issue */
     {
         putenv("NACOS_ENV=local");
 

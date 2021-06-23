@@ -1,13 +1,13 @@
 <?php
 
 
-namespace alibaba\nacos\util;
+namespace mimic\nacos\util;
 
 
 /**
  * Class EncodeUtil
  * @author suxiaolin
- * @package alibaba\nacos\util
+ * @package mimic\nacos\util
  */
 class EncodeUtil
 {
