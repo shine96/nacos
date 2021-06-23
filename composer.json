@@ -1,0 +1,32 @@
+{
+  "name": "mimic/nacos",
+  "description": "阿里巴巴nacos配置中心php客户端",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mimic",
+      "email": "10670374@qq.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3|^7.0",
+    "monolog/monolog": "^1.24|^2.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mimic\\": "src/mimic/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
