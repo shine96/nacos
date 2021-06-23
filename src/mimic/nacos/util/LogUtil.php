@@ -1,17 +1,17 @@
 <?php
 
 
-namespace alibaba\nacos\util;
+namespace mimic\nacos\util;
 
 use Exception;
 use Monolog\Logger;
-use alibaba\nacos\NacosConfig;
+use mimic\nacos\NacosConfig;
 use Monolog\Handler\StreamHandler;
 
 /**
  * Class LogUtil
  * @author suxiaolin
- * @package alibaba\nacos\util
+ * @package mimic\nacos\util
  */
 class LogUtil
 {

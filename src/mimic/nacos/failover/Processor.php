@@ -1,11 +1,11 @@
 <?php
 
 
-namespace alibaba\nacos\failover;
+namespace mimic\nacos\failover;
 
 
-use alibaba\nacos\NacosConfig;
-use alibaba\nacos\util\FileUtil;
+use mimic\nacos\NacosConfig;
+use mimic\nacos\util\FileUtil;
 
 class Processor
 {

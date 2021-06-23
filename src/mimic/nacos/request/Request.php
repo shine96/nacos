@@ -8,13 +8,13 @@ use mimic\nacos\util\HttpUtil;
 use mimic\nacos\enum\ErrorCodeEnum;
 use Psr\Http\Message\ResponseInterface;
 use mimic\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 /**
  * Class Request
  * @author suxiaolin
- * @package alibaba\nacos\request
+ * @package mimic\nacos\request
  */
 abstract class Request
 {

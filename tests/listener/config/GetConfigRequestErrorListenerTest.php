@@ -2,13 +2,13 @@
 
 namespace tests\listener\config;
 
-use alibaba\nacos\Nacos;
+use mimic\nacos\Nacos;
 use ReflectionException;
 use PHPUnit\Framework\TestCase;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
-use alibaba\nacos\listener\config\GetConfigRequestErrorListener;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\listener\config\GetConfigRequestErrorListener;
 
 class GetConfigRequestErrorListenerTest extends TestCase
 {

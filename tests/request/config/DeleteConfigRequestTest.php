@@ -1,13 +1,13 @@
 <?php
 
-namespace alibaba\nacos\request\config;
+namespace mimic\nacos\request\config;
 
 
 use tests\TestCase;
 use ReflectionException;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 /**
  * Class ListenerConfigRequestTest

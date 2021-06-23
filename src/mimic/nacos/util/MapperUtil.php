@@ -1,7 +1,7 @@
 <?php
 
 
-namespace alibaba\nacos\util;
+namespace mimic\nacos\util;
 
 
 use ReflectionObject;

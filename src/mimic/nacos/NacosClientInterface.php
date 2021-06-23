@@ -5,14 +5,14 @@ namespace mimic\nacos;
 
 
 use ReflectionException;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 /**
  * Class NacosClientInterface
  * @author suxiaolin
- * @package alibaba\nacos
+ * @package mimic\nacos
  */
 interface NacosClientInterface
 {

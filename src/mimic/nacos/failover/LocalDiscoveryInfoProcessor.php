@@ -1,17 +1,17 @@
 <?php
 
 
-namespace alibaba\nacos\failover;
+namespace mimic\nacos\failover;
 
 
 use SplFileInfo;
-use alibaba\nacos\NacosConfig;
-use alibaba\nacos\model\Instance;
-use alibaba\nacos\util\DiscoveryUtil;
+use mimic\nacos\NacosConfig;
+use mimic\nacos\model\Instance;
+use mimic\nacos\util\DiscoveryUtil;
 
 /**
  * Class LocalDiscoveryInfoProcessor
- * @package alibaba\nacos\failover
+ * @package mimic\nacos\failover
  */
 class LocalDiscoveryInfoProcessor extends Processor
 {

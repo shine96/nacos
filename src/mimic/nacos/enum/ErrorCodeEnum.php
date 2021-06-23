@@ -1,13 +1,13 @@
 <?php
 
 
-namespace alibaba\nacos\enum;
+namespace mimic\nacos\enum;
 
 
 /**
  * Class ErrorCodeEnum
  * @author suxiaolin
- * @package alibaba\nacos\enum
+ * @package mimic\nacos\enum
  */
 class ErrorCodeEnum
 {

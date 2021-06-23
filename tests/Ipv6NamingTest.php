@@ -1,23 +1,23 @@
 <?php
 
-namespace alibaba\nacos\request\config;
+namespace mimic\nacos\request\config;
 
 
 use ReflectionException;
-use alibaba\nacos\Naming;
-use alibaba\nacos\model\Beat;
-use alibaba\nacos\NacosConfig;
+use mimic\nacos\Naming;
+use mimic\nacos\model\Beat;
+use mimic\nacos\NacosConfig;
 use PHPUnit\Framework\TestCase;
-use alibaba\nacos\model\Instance;
-use alibaba\nacos\model\InstanceList;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\model\Instance;
+use mimic\nacos\model\InstanceList;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 /**
  * Class NamingTest
  * @author suxiaolin
- * @package alibaba\nacos\request\config
+ * @package mimic\nacos\request\config
  */
 class NamingTest extends TestCase
 {

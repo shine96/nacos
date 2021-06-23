@@ -1,7 +1,7 @@
 <?php
 
 
-namespace alibaba\nacos\exception;
+namespace mimic\nacos\exception;
 
 
 use Exception;
@@ -9,7 +9,7 @@ use Exception;
 /**
  * Class RequestVerbRequiredException
  * @author suxiaolin
- * @package alibaba\nacos\exception
+ * @package mimic\nacos\exception
  */
 class RequestVerbRequiredException extends Exception
 {

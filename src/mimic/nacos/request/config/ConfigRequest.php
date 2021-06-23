@@ -10,7 +10,7 @@ use mimic\nacos\util\ReflectionUtil;
 /**
  * Class ConfigRequest
  * @author suxiaolin
- * @package alibaba\nacos\request\config
+ * @package mimic\nacos\request\config
  */
 class ConfigRequest extends Request
 {

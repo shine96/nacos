@@ -4,10 +4,10 @@ namespace tests\request\naming;
 
 use tests\TestCase;
 use ReflectionException;
-use alibaba\nacos\exception\ResponseCodeErrorException;
-use alibaba\nacos\exception\RequestUriRequiredException;
-use alibaba\nacos\request\naming\RegisterInstanceNaming;
-use alibaba\nacos\exception\RequestVerbRequiredException;
+use mimic\nacos\exception\ResponseCodeErrorException;
+use mimic\nacos\exception\RequestUriRequiredException;
+use mimic\nacos\request\naming\RegisterInstanceNaming;
+use mimic\nacos\exception\RequestVerbRequiredException;
 
 class RegisterInstanceNamingTest extends TestCase
 {
