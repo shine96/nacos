@@ -1,12 +1,12 @@
 # 阿里巴巴nacos配置中心-PHP客户端
 
-[Nacos配置中心](https://github.com/mimic/nacos)的PHP客户端，更多关于Nacos配置中心的介绍，可以查看[Nacos配置中心Wiki](https://github.com/mimic/nacos/wiki)。
+[Nacos配置中心](https://github.com/shine96/nacos)的PHP客户端，更多关于Nacos配置中心的介绍，可以查看[Nacos配置中心Wiki](https://github.com/mimic/nacos/wiki)。
 
 ### 特性
 
 1. 容错兜底
 2. 容易上手
-3. 技术支持，有问题可加作者微信: suxiaolinKing
+3. 技术支持，有问题可提交issue
 
 ### 开发计划
 
